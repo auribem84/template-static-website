@@ -1,0 +1,22 @@
+I'm starting a static website called Contoso for small and medium business. The goal is to provide IT consulting services. Convert it to a project brief statement
+
+make it more concise
+
+Based on the Project brief. Please help me gather comprehensive requirements by analyzing must-have features for the website. Provide specific examples where possible and identify any additional requirements unique for this project. 
+Also, include any industry standards or best practices for usability that should be considered.
+
+Based on these features provide a site map including page structure, showing all primary pages, their hierarchy and how they are interconnected
+
+Give me a description of the stucture for the home page, in plain text, from top to bottom. Include only layout and content blocks.
+
+
+
+
+
+Lovable
+Create a static website called Contoso
+Build this home page:
+
+
+
+dark theme, rounded corners, transparency, gradient colors #FF00D4, elevation shadows, thin lines

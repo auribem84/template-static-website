@@ -2,45 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contoso - Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contoso IT Consulting – Coming Soon</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
       margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
       color: #333;
-    }
-    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       text-align: center;
-      padding: 2rem;
     }
-    h1 {
-      font-size: 3rem;
-      color: #0078D4;
+
+    header {
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 0.5em;
     }
-    p {
-      font-size: 1.2rem;
-      margin: 1rem 0;
+
+    .subtitle {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
     }
-    .contact {
-      margin-top: 2rem;
+
+    .cta-button {
+      padding: 0.75em 1.5em;
+      background-color: #0078D4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Contoso</h1>
-    <p><strong>IT Consulting Services for Small & Medium Businesses</strong></p>
-    <p>Our website is under construction. We'll be here soon with a new digital experience.</p>
-    <div class="contact">
-      <p>📧 Contact us: <a href="mailto:info@contoso.com">info@contoso.com</a></p>
-    </div>
-  </div>
+  <header>Teknowsolutions LLC</header>
+  <div class="subtitle">Our website is under construction.</div>
+  <p>We're working hard to launch our full site and bring expert IT solutions to small and medium businesses.</p>
+  <p>In the meantime, feel free to reach out via email:</p>
+  <p><strong>support@teknowsolutions.com</strong></p>
+  <br>
+  <a href="mailto:support@teknowsolution.com" class="cta-button">Contact Us</a>
+
+  <footer>&copy; 2025 Teknowsolutions LLC. All rights reserved.</footer>
 </body>
 </html>
